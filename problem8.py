@@ -45,9 +45,7 @@ def product_calculator(number, row):
         min_range += 1
         max_range += 1
         product    = 1
-    
-    print(products_list)
-    
+        
     return max(products_list)
 
 print(product_calculator(large_number, 13))
